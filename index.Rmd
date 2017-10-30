@@ -4,6 +4,6 @@ title: "Corey Brennan"
 
 ### Columbia University Mailman School of Public Health
 
-I am currently a second year MPH Epidemiology & Applied Biostatistics student at Columbia University. You can find my github page and email on the bar along the top.
+I am currently a second year MPH Epidemiology & Applied Biostatistics student at Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
 
 My resume can be found [here](resume.pdf).
