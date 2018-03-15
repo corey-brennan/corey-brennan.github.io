@@ -1,9 +1,20 @@
 ---
 title: "Corey Brennan"
 ---
-
 ### Columbia University Mailman School of Public Health
 
 I am currently a second year MPH Epidemiology & Applied Biostatistics student at Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
 
 My resume can be found [here](resume.pdf).
+
+My final project for Data Science I can be found [here](https://kblitsman.github.io/p8105_final/).
+
+Some examples of work of I have done in R can be found [here](p8105_hw5_cb3262.html). 
+
+<style>
+IMG.selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+</style>
+<img class="selfie" src="images/corey_greatWall.jpg" style="width:25%;height:25%" align="Middle">
