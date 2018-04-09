@@ -7,9 +7,19 @@ I am currently a second year MPH Epidemiology & Applied Biostatistics student at
 
 My resume can be found [here](resume.pdf).
 
-My final project for Data Science I can be found [here](https://kblitsman.github.io/p8105_final/).
+Some examples of work I have completed in different in different programming languages/software can be found below:
 
-Some examples of work of I have done in R can be found [here](p8105_hw5_cb3262.html). 
+R
+
+[Data Science I - Final Project](https://kblitsman.github.io/p8105_final/)
+
+Python
+
+[Programming Languages: Python - Final Project](Final_Project_kb2908_cb3262.html)
+
+SQL/Access/VBA
+
+[Research Data Coordination - Final Project](cb3262_final.accdb)
 
 <style>
 IMG.selfie {
