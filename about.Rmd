@@ -1,9 +1,9 @@
 ---
 title: "About"
+output:
+  html_document:
+    theme: yeti
+    highlight: tango
 ---
 
-### About this site
-
-This is a website with general information about myself and the projects that I am currently working on. Thank you for looking at it!
-
-I hope to develop this website further.
+This website was constructed using R and Rmarkdown produced html documents. It is hosted on github.

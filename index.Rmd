@@ -1,25 +1,44 @@
 ---
 title: "Corey Brennan"
+output:
+  html_document:
+    theme: yeti
+    highlight: tango
 ---
 ### Columbia University Mailman School of Public Health
 
 I am currently a second year MPH Epidemiology & Applied Biostatistics student at Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
 
-My resume can be found [here](resume.pdf).
+Examples of work I have done in different programming languages and software can be found below:
 
-Some examples of work I have completed in different in different programming languages/software can be found below:
+# {.tabset .tabset-fade .tabset-pills}
 
-R
+## **R**
 
 [Data Science I - Final Project](https://kblitsman.github.io/p8105_final/)
 
-Python
+An analysis examining the effect of marijuana legalization on drug consumption. Click the interactive analysis heading to explore National Survey on Drug Use and Health data using a shiny app that our group created!
+
+## **SAS**
+
+[Practice Variation in PHS-IR Kidney Transplants](https://www.asn-online.org/education/kidneyweek/2017/program-abstract.aspx?controlId=2789653)
+
+My 2017 American Society of Nephrology abstract examining transplant center utilization of PHS-IR Kidneys (Kidneys at increased risk of HIV, Hep-B, Hep-C, and other communicable diseases). Analysis was performed using SAS.
+
+## **Python**
 
 [Programming Languages: Python - Final Project](Final_Project_kb2908_cb3262.html)
 
-SQL/Access/VBA
+An analysis focusing on a physician ratings website. We scraped data from the website and analyzed it, expecting be able to compare ratings for certain specialties and locations. Unfortunately, most physicians received 5-star ratings.
+
+## **SQL/Access/VBA**
 
 [Research Data Coordination - Final Project](cb3262_final.accdb)
+
+A hypothetical access database used to contain information on organ donors, organ recipient, and transplant medications/follow-up visits. Several SQL queries and VBA code additions are included.
+
+#
+<br>
 
 <style>
 IMG.selfie {
