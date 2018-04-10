@@ -15,7 +15,7 @@ I am currently a second year MPH Epidemiology & Applied Biostatistics student at
 
 Examples of work I have done in different programming languages and software can be found below:
 
-# {.tabset .tabset-fade .tabset-pills}
+# {.tabset .tabset-fade}
 
 ## **R**
 
