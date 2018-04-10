@@ -1,11 +1,15 @@
 ---
-title: "Corey Brennan"
 output:
   html_document:
     theme: yeti
     highlight: tango
 ---
+<br>
+
+## **Corey Brennan**
 ### Columbia University Mailman School of Public Health
+
+***
 
 I am currently a second year MPH Epidemiology & Applied Biostatistics student at Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
 
