@@ -1,7 +1,7 @@
 ---
 output:
   html_document:
-    theme: lumen
+    theme: flatly
     highlight: tango
 ---
 <br>
@@ -11,11 +11,11 @@ output:
 
 ***
 
-I am currently a second year MPH Epidemiology & Applied Biostatistics student at Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
+I am currently an analyst at New York Presbyterian Hospital at Columbia's medical campus. I received my MPH in Epidemiology & Applied Biostatistics from Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
 
-Examples of work I have done in different programming languages and software can be found below:
+Publications that I was the primary analyst on, and examples of work I have done in different programming languages and software can be found below:
 
-# {.tabset .tabset-fade}
+# {.tabset .tabset-fade .tabset-pills}
 
 ## **R**
 
@@ -40,6 +40,18 @@ An analysis focusing on a physician ratings website. We scraped data from the we
 [Research Data Coordination - Final Project](cb3262_final.accdb)
 
 A hypothetical access database used to contain information on organ donors, organ recipient, and transplant medications/follow-up visits. Several SQL queries and VBA code additions are included.
+
+## **Publications**
+
+[Outcomes of kidney transplant from deceased donors with acute kidney injury and prolonged cold ischemia time](https://onlinelibrary.wiley.com/doi/abs/10.1111/tri.13406)
+
+[Procurement Biopsies in the Evaluation of Deceased Donor Kidneys](https://cjasn.asnjournals.org/content/13/12/1876)
+
+[Association between the "Timed Up and Go Test" at Transplant Evaluation and Outcomes after Kidney Transplantation](https://onlinelibrary.wiley.com/doi/abs/10.1111/ctr.13410)
+
+[Patients Prioritize Waitlist over Post-Transplant Outcomes When Evaluating Kidney Transplant Centers](https://onlinelibrary.wiley.com/doi/abs/10.1111/ajt.14985)
+
+
 
 #
 <br>

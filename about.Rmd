@@ -1,7 +1,7 @@
 ---
 output:
   html_document:
-    theme: lumen
+    theme: flatly
     highlight: tango
 ---
 <br>
