@@ -7,6 +7,8 @@ navbar:
       href: resume.pdf
     - text: "About"
       href: about.html
+    - text: "CS290 Project"
+      href: Project/index.html
     - icon: fa-envelope fa-lg
       href: mailto:corey.brennan@columbia.edu
     - icon: fa-github fa-lg

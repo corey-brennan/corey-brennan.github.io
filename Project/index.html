@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valorant</title>
+	<link rel="icon" 
+      type="image/png" 
+      href="valorant.png">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+	<!-- Font awesome -->
+	<script src="https://kit.fontawesome.com/aad6b4b882.js" crossorigin="anonymous"></script>
+
+	<!-- Custom stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0"  id="val_nav">
+  <a class="navbar-brand p-0" href="index.html">
+    <img class="img-responsive brand-image" alt="Brand" src="valorant.png">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Get the latest updates</em>">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="maps.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Plan your strategies</em>">Maps <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="operators.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>View abilities and ultimates</em>">Operators</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="weapons.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>See what you're working with</em>">Weapons</a>
+      </li>
+    </ul>
+<!--     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid text-center bg-dark text-white" id="index_page">
+  
+    <div id="muteYouTubeVideoPlayer"></div>
+
+
+  <div class="container text-white carousel_text">
+
+    <h1 class="display-4">Welcome to Valorant</h1>
+    <p class="lead">The newest release from Riot Games</p>
+    <hr class="my-4">
+  </div>
+  <!-- /.container -->
+
+  <div id="carouselIndex" class="carousel slide pt-3 container-fluid" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselIndex" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselIndex" data-slide-to="1"></li>
+        <li data-target="#carouselIndex" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./public/index/carousel1.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-left"></h5>
+            <p class="text-left carousel_text"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/index/carousel2.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-left"></h5>
+            <p class="text-left carousel_text"></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./public/index/carousel3.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-left"></h5>
+            <p class="text-left carousel_text"></p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselIndex" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselIndex" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- /.jumbotron -->
+
+<footer class="container text-center text-white">
+    Images property of Riot Games. Gameplay from <a href="https://www.youtube.com/channel/UCoz3Kpu5lv-ALhR4h9bDvcw">Shroud</a>. Font from /u/Brylark on <a href="https://www.reddit.com/r/VALORANT/comments/g0747t/valorant_font/">reddit</a>
+</footer>
+
+
+<!-- Jquery 3.2.1 CDN; Popper 1.12.9 CDN; Boostrap 4.0.0 JS CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Datatables -->
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+<!-- Javascript -->
+<script type="text/javascript">
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+</script>
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+<script>
+ function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('muteYouTubeVideoPlayer', {
+    videoId: '1JJ5elxNr9I', // YouTube Video ID
+    width: 1080,               // Player width (in px)
+    height: 640,              // Player height (in px)
+    playerVars: {
+      autoplay: 1,        // Auto-play the video on load
+      controls: 1,        // Show pause/play buttons in player
+      showinfo: 0,        // Hide the video title
+      modestbranding: 1,  // Hide the Youtube Logo
+      loop: 1,            // Run the video in a loop
+      fs: 0,              // Hide the full screen button
+      cc_load_policy: 0, // Hide closed captions
+      iv_load_policy: 3,  // Hide the Video Annotations
+      autohide: 0         // Hide video controls when playing
+    },
+    events: {
+      onReady: function(e) {
+        e.target.mute();
+      }
+    }
+  });
+ }
+
+ // Written by @labnol
+</script>
+
+</body>
+</html>

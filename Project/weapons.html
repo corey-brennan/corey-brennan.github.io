@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valorant</title>
+  <link rel="icon" 
+      type="image/png" 
+      href="valorant.png">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/aad6b4b882.js" crossorigin="anonymous"></script>
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0"  id="val_nav">
+  <a class="navbar-brand p-0" href="index.html">
+    <img class="img-responsive brand-image" alt="Brand" src="valorant.png">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Get the latest updates</em>">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="maps.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Plan your strategies</em>">Maps <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="operators.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>View abilities and ultimates</em>">Operators</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="weapons.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>See what you're working with</em>">Weapons</a>
+      </li>
+    </ul>
+<!--     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<!-- <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark jumbo_div">
+
+  <div class="row">
+    <div class="col px-0 jumbo_box">
+      <h1 class="display-3">Maps</h1>
+      <p class="lead my-3">Plan your strategy for domination</p>
+    </div>
+    <div class="col-8 px-0 m-0 p-0">
+      <img class="img-fluid" alt="Brand" src=>
+    </div>
+  </div>
+</div> -->
+
+<div class="card bg-dark text-white">
+  <img class="card-img" src="./public/weapons/weapons_main.png" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title display-3 carousel_text val_font">Weapons</h5>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col bg-dark patch_notes text-white overflow-auto mt-1 mr-1 ml-3 pt-3">
+    <h1 class="display-5 val_color">Weapon Patch Notes</h5>
+    <ul>
+      <li>Recovery times on all Rifles have been updated, which should make tap and burst firing more efficient. Inaccuracy is accrued any time the weapon is re-fired prior to a complete duration of a weapon’s respective Gun Recovery Time.</li>
+      <li>Base walk accuracy: 0.6° >> 0.8°</li>
+      <ul>
+        <li>We felt like walk-spraying with rifles was a little more effective than we'd like, particularly at longer ranges. We're going to pull back on this accuracy slightly and continue to monitor</li>
+      </ul>
+      <hr class="my-4">
+      <li><strong>Vandal</strong></li>
+      <ul>
+        <li>Horizontal (Yaw) Recoil reduced by 15% while crouched and stationary</li>
+        <ul>
+          <li>This was intended to be the case and now properly matches the crouch benefits of other rifles</li>
+        </ul>
+        <li>Gun Recovery Time: .4s >> .375s</li>
+        <li>Tap Efficiency: 4 >> 6</li>
+      </ul>
+      <li><strong>Phantom</strong></li>
+      <ul>
+        <li>Fixed an issue where the Gun Recovery Time was higher than intended</li>
+        <li>Gun Recovery Time: .55s >> .35s</li>
+        <li>Tap Efficiency: 3 >> 4</li>
+      </ul>
+      <li><strong>Bulldog</strong></li>
+      <ul>
+        <li>Automatic Fire: Fixed an issue where the Gun Recovery Time was higher than intended</li>
+        <li>Gun Recovery Time: .55s >> .35s</li>
+      </ul>
+      <li><strong>Guardian</strong></li>
+      <ul>
+        <li>Fixed an issue where the Gun Recovery Time was higher than intended</li>
+        <li>Gun Recovery Time: .4s >> .35s</li>
+      </ul>
+      <li><strong>Ares</strong></li>
+      <ul>
+        <li>Price reduced from 1700 to 1600 creds</li>
+        <li>Firing Error (this value is a curve that has intermediate values between each bullet; bullet 2 has slightly less error than bullet 1, and so on)</li>
+        <li>Reduced the amount and intensity of horizontal (Yaw) Recoil after the first 8 bullets.</li>
+      </ul>
+      <li><strong>Odin</strong></li>
+      <ul>
+        <li>Reduced the amount and intensity of horizontal (Yaw) Recoil after the first 8 bullets.</li>
+      </ul>
+    </ul>
+  </div>
+  <div class="col bg-dark patch_notes text-white overflow-auto mt-1 mr-3 pt-3">
+    <h1 class="display-5 val_color">Resources</h5>
+    <ul>
+      <li>
+        For time-to-kill information of each weapon, click the button below to download an informative excel file from /u/iMakeGirlsCry on <a href="https://www.reddit.com/r/VALORANT/comments/g4yxqb/valorant_ttk_spreadsheet_for_weapons_all_armor/"> reddit</a>
+      </li>
+    </ul>
+    <div class="text-center">
+      <a href=".\public\weapons\weapon_ttk.xlsx"download><button type="button" class="btn btn-sm btn-outline-secondary">TTK Spreadsheet</button></a>
+    </div>
+  </div>
+
+</div>
+
+
+<footer class="container text-center text-white">
+    Images property of Riot Games. Gameplay from <a href="https://www.youtube.com/channel/UCoz3Kpu5lv-ALhR4h9bDvcw">Shroud</a>. Font from /u/Brylark on <a href="https://www.reddit.com/r/VALORANT/comments/g0747t/valorant_font/">reddit</a>
+</footer>
+
+
+<!-- Jquery 3.2.1 CDN; Popper 1.12.9 CDN; Boostrap 4.0.0 JS CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Datatables -->
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+<!-- Javascript -->
+<script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+</body>
+</html>

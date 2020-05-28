@@ -62,4 +62,4 @@ IMG.selfie {
     margin-left: auto;
     margin-right: auto }
 </style>
-<img class="selfie" src="images/corey_greatWall.jpg" style="width:25%;height:25%" align="Middle">
+<img class="selfie" src="images/corey_robin.jpeg" style="width:50%;height:50%" align="Middle">

@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Valorant;
+    src: url("./public/fonts/Valorant Font.ttf") format("truetype");
+}
+
+body{
+  padding: 5px 5px;
+  margin: 5px 5px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+html{
+
+}
+
+#maps_image {
+  background: no-repeat url("./public/maps/maps_gen.jpg")
+}
+
+#header_image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.patch_notes{
+  height: 400px;
+  width: 99.95%;
+  margin: 0 auto;
+}
+
+footer {
+  min-height: 10px;
+  max-height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.brand-image {
+	max-width: 200px;
+	width: 100px;
+}
+
+.top-row {
+
+}
+
+.jumbotron {
+  background: no-repeat url("valorant-main.jpg");
+
+}
+
+#index_page {
+  padding: 20px;
+}
+
+.text_head {
+  font-size: 25px;
+}
+
+.header_row {
+  height: auto;
+}
+
+.jumbo_div {
+  height: 22em;
+}
+
+.album_block {
+  height: 225px; 
+  width: 100%; 
+  display: block;
+  background-color: black;
+}
+
+.jumbo_box {
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+  height: 50em;
+}
+
+.carousel_text {
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+
+/* Toast Icon */
+.toast-icon{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+#gradient {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+tr.group,
+tr.group:hover {
+    background-color: #ddd !important;
+}
+
+#tip_table {
+	max-width: 90%;
+}
+
+.panel_class {
+  width: 99.95%;
+  margin: 0 auto;
+}
+
+#last_updated {
+	color: blue;
+}
+
+#val_nav {
+  border-bottom: 1px solid #ff4655;
+}
+
+.footer_copyright {
+  margin: 0;
+  padding: 0;
+  background-color: #fff000;
+}
+
+.background_tile {
+  background-color: #343A40;
+  padding: 0;
+}
+
+.val_color {
+  font-family: Valorant;
+  color: #FE4C5A;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.val_font {
+  font-family: Valorant;
+}
+
+.map_text {
+  margin: 0 auto;
+}

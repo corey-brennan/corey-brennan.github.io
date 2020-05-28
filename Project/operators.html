@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Valorant</title>
+  <link rel="icon" 
+      type="image/png" 
+      href="valorant.png">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/aad6b4b882.js" crossorigin="anonymous"></script>
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0"  id="val_nav">
+  <a class="navbar-brand p-0" href="index.html">
+    <img class="img-fluid brand-image" alt="Brand" src="valorant.png">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Get the latest updates</em>">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="maps.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Plan your strategies</em>">Maps <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="operators.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>View abilities and ultimates</em>">Operators</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="weapons.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>See what you're working with</em>">Weapons</a>
+      </li>
+    </ul>
+<!--     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<!-- <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark jumbo_div">
+  <div class="container">
+  <div class="row header">
+    <div class="col px-0 jumbo_box container">
+      <h1 class="display-3">Operators</h1>
+      <p class="lead my-3">Recent updates in the transplant space</p>
+    </div>
+  </div>
+  </div>
+</div> -->
+
+<div class="card bg-dark text-white">
+  <img class="card-img" id="header_image" src="./public/operators/operators_main.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <h5 class="card-title display-3 carousel_text val_font">Operators</h5>
+  </div>
+</div>
+
+<div class="container">
+  
+<div class="row">
+  
+</div>
+
+</div>
+
+<div class="album py-5 mt-1 bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/breach.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Breach</strong>
+                <ul>
+                  <li>Strong Initiation</li>
+                  <li>Solid Entry Fragger</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Breach"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/breach.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Initiator</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top img-thumbnail album_block" alt="Thumbnail [100%x225]" src="./public/operators/brimstone.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Brimstone</strong>
+                <ul>
+                  <li>Great Smoke Coverage</li>
+                  <li>Good Area Denial</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Brimstone"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/brimstone.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Controller</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/cypher.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Cypher</strong>
+                <ul>
+                  <li>Intel Collector</li>
+                  <li>Can Control Sites Solo</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Cypher"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/cypher.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Sentinel</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/jett.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Jett</strong>
+                <ul>
+                  <li>Highly Mobile</li>
+                  <li>Not Much Utility</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Jett"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/jett.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Duelist</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/omen.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Omen</strong>
+                <ul>
+                  <li>Teleportation Abilities</li>
+                  <li>Decent Smoke Abilities</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Omen"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/omen.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Controller</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/phoenix.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Phoenix</strong>
+                <ul>
+                  <li>Curvable Flashbangs</li>
+                  <li>Self-revive Ultimate</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Phoenix"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/phoenix.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Duelist</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/raze.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Raze</strong>
+                <ul>
+                  <li>High Damage Output</li>
+                  <li>Decent Scouting</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Raze"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/raze.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Duelist</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/sage.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Sage</strong>
+                <ul>
+                  <li>Top Tier Area Denial</li>
+                  <li>Healing and Revive</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Sage"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/sage.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Sentinel</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/sova.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Sova</strong>
+                <ul>
+                  <li>Good Scouting</li>
+                  <li>Decent Damage Abilities</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Sova"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/sova.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Initiator</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top album_block img-thumbnail" alt="Thumbnail [100%x225]" src="./public/operators/viper.png" data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text text-center">
+                <strong class="text_head">Viper</strong>
+                <ul>
+                  <li>Vision Denial</li>
+                  <li>Damage Over Time</li>
+                </ul>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://valorant.fandom.com/wiki/Viper"><button type="button" class="btn btn-sm btn-outline-secondary">Wiki</button></a>
+                  <a href="./public/operators/viper.png" download><button type="button" class="btn btn-sm btn-outline-secondary">Download Image</button></a>
+                </div>
+                <small class="text-muted">Controller</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container text-center text-white">
+    Images property of Riot Games. Gameplay from <a href="https://www.youtube.com/channel/UCoz3Kpu5lv-ALhR4h9bDvcw">Shroud</a>. Font from /u/Brylark on <a href="https://www.reddit.com/r/VALORANT/comments/g0747t/valorant_font/">reddit</a>
+</footer>
+
+<!-- Jquery 3.2.1 CDN; Popper 1.12.9 CDN; Boostrap 4.0.0 JS CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Datatables -->
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+
+
+<!-- Javascript -->
+<script type="text/javascript">
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+</body>
+</html>
