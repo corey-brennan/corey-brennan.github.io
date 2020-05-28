@@ -4,7 +4,7 @@
   <title>Valorant</title>
   <link rel="icon" 
       type="image/png" 
-      href="valorant.png">
+      href="./public/index/valorant.png">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -22,7 +22,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0"  id="val_nav">
   <a class="navbar-brand p-0" href="index.html">
-    <img class="img-fluid brand-image" alt="Brand" src="valorant.png">
+    <img class="img-fluid brand-image" alt="Brand" src="./public/index/valorant.png">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -33,14 +33,14 @@
       <li class="nav-item">
         <a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Get the latest updates</em>">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="maps.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Plan your strategies</em>">Maps <span class="sr-only"></span></a>
-      </li>
       <li class="nav-item active">
         <a class="nav-link" href="operators.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>View abilities and ultimates</em>">Operators</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="weapons.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>See what you're working with</em>">Weapons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="maps.html" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<em>Plan your strategies</em>">Maps <span class="sr-only"></span></a>
       </li>
     </ul>
 <!--     <form class="form-inline my-2 my-lg-0">
@@ -316,12 +316,8 @@
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
 
 
-<!-- Javascript -->
-<script type="text/javascript">
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
-</script>
+<!-- Local Javascript -->
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
