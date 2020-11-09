@@ -11,7 +11,7 @@ output:
 
 ***
 
-I am currently an analyst at New York Presbyterian Hospital at Columbia's medical campus. I received my MPH in Epidemiology & Applied Biostatistics from Columbia University. You can find my github page and email on the bar along the top. Additionally, there is information about the website if you click the "about" link.
+I am currently an analyst at New York Presbyterian Hospital at Columbia's medical campus. I received my MPH in Epidemiology & Applied Biostatistics from Columbia University. You can find my github page and email on the bar along the top.
 
 Publications that I was the primary analyst on, and examples of work I have done in different programming languages and software can be found below:
 
