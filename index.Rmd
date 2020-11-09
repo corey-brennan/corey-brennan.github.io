@@ -7,7 +7,7 @@ output:
 <br>
 
 ## **Corey Brennan**
-### Columbia University Mailman School of Public Health
+### Columbia University
 
 ***
 
@@ -23,12 +23,6 @@ Publications that I was the primary analyst on, and examples of work I have done
 
 An analysis examining the effect of marijuana legalization on drug consumption. Click the interactive analysis heading to explore National Survey on Drug Use and Health data using a shiny app that our group created!
 
-## **SAS**
-
-[Practice Variation in PHS-IR Kidney Transplants](https://www.asn-online.org/education/kidneyweek/2017/program-abstract.aspx?controlId=2789653)
-
-My 2017 American Society of Nephrology abstract examining transplant center utilization of PHS-IR Kidneys (Kidneys at increased risk of HIV, Hep-B, Hep-C, and other communicable diseases). Analysis was performed using SAS.
-
 ## **Python**
 
 [Programming Languages: Python - Final Project](Final_Project_kb2908_cb3262.html)
@@ -40,6 +34,13 @@ An analysis focusing on a physician ratings website. We scraped data from the we
 [Research Data Coordination - Final Project](cb3262_final.accdb)
 
 A hypothetical access database used to contain information on organ donors, organ recipient, and transplant medications/follow-up visits. Several SQL queries and VBA code additions are included.
+
+## **SAS**
+
+[Practice Variation in PHS-IR Kidney Transplants](https://www.asn-online.org/education/kidneyweek/2017/program-abstract.aspx?controlId=2789653)
+
+My 2017 American Society of Nephrology abstract examining transplant center utilization of PHS-IR Kidneys (Kidneys at increased risk of HIV, Hep-B, Hep-C, and other communicable diseases). Analysis was performed using SAS.
+
 
 ## **Publications**
 
@@ -62,4 +63,4 @@ IMG.selfie {
     margin-left: auto;
     margin-right: auto }
 </style>
-<img class="selfie" src="images/corey_robin.jpeg" style="width:50%;height:50%" align="Middle">
+<img class="selfie" src="images/corey_robin.jpeg" style="width:25%;height:25%" align="Middle">
