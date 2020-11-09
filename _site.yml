@@ -5,8 +5,6 @@ navbar:
   right:
     - text: "Resume"
       href: resume.pdf
-    - text: "About"
-      href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:corey.brennan@columbia.edu
     - icon: fa-github fa-lg

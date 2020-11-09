@@ -21,19 +21,19 @@ Publications that I was the primary analyst on, and examples of work I have done
 
 [Data Science I - Final Project](https://kblitsman.github.io/p8105_final/)
 
-An analysis examining the effect of marijuana legalization on drug consumption. Click the interactive analysis heading to explore National Survey on Drug Use and Health data using a shiny app that our group created!
+An analysis examining the effect of marijuana legalization on drug consumption. Click the interactive analysis heading to explore National Survey on Drug Use and Health data using a Rshiny app that our group created.
 
 ## **Python**
 
 [Programming Languages: Python - Final Project](Final_Project_kb2908_cb3262.html)
 
-An analysis focusing on a physician ratings website. We scraped data from the website and analyzed it, expecting be able to compare ratings for certain specialties and locations. Unfortunately, most physicians received 5-star ratings.
+An analysis focusing on a physician ratings website. We scraped data from the website and analyzed it, expecting be able to compare ratings for certain specialties and locations. Unfortunately, most physicians received 5-star ratings, possibly due to a website issue when we scraped.
 
-## **SQL/Access/VBA**
+<!-- ## **SQL/Access/VBA** -->
 
-[Research Data Coordination - Final Project](cb3262_final.accdb)
+<!-- [Research Data Coordination - Final Project](cb3262_final.accdb) -->
 
-A hypothetical access database used to contain information on organ donors, organ recipient, and transplant medications/follow-up visits. Several SQL queries and VBA code additions are included.
+<!-- A hypothetical access database used to contain information on organ donors, organ recipient, and transplant medications/follow-up visits. Several SQL queries and VBA code additions are included. -->
 
 ## **SAS**
 
